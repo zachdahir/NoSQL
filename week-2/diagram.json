@@ -1,0 +1,29 @@
+{"customer": {
+    "_id": "007",
+    "first_name": "James",
+    "last_name": "Bond",
+    "date_of_birth": "11/13/1995",
+    "user_name": "GoldenEye",
+    
+    "invoices":[{
+    "_id": "4564",
+    "date_created": "5/06/20",
+    "date_shipped": "5/08/20",
+    "subtotal": "130",
+    "tax": "11.54",
+    "total": "141.54",
+
+    "line items": [{
+        "_id": "56589",
+        "name": "MyPillow",
+        "quantity": "2"
+        },
+
+        {
+        "_id": "54357",
+        "name": "Comforter",
+        "quantity": "1"
+        }]
+    }]
+}}
+
